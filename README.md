@@ -17,3 +17,14 @@ Algoritmo de optimización desarrollado en **Symfony 7** que automatiza la creac
 1. Clonar repositorio:
    ```bash
    git clone [https://github.com/sergiokno479/horarios.git](https://github.com/sergiokno479/horarios.git)
+
+2. Instalar dependencias:
+   ```bash
+      composer install
+
+3. Configurar base de datos en .env y ejecutar migraciones:
+      ```bash
+      php bin/console doctrine:migrations:migrate
+4. Correr servidor:
+      ```bash
+      symfony server:start
